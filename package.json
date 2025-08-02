@@ -1,0 +1,34 @@
+{
+  "name": "coffee-shop-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot for coffee shop inventory and sales",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "bot": "node bot.js",
+    "test": "node test.js",
+    "upload-inventory": "node upload-inventory.js",
+    "test-search": "node upload-inventory.js test"
+  },
+  "dependencies": {
+    "@handit.ai/node": "^1.2.0",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "coffee",
+    "ai",
+    "pinecone"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+# Copy this file to .env and fill in your actual values
+
+# Telegram Bot Configuration
+TELEGRAM_BOT_TOKEN=your_bot_token_from_botfather
+
+# OpenAI Configuration
+OPENAI_API_KEY=sk-your_openai_api_key_here
+
+# Pinecone Configuration (Optional - bot will use mock data if not provided)
+PINECONE_API_KEY=your_pinecone_api_key_here
+PINECONE_INDEX_NAME=coffee-shop-inventory
+PINECONE_ENVIRONMENT=us-west1-gcp

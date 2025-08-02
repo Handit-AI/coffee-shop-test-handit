@@ -1,0 +1,45 @@
+id,name,price,category,description,stock,available
+espresso classic,Classic Espresso,2.50,Coffee,Rich and bold single shot of espresso,100,true
+espresso double,Double Espresso,3.25,Coffee,Intense double shot for the serious coffee lover,80,true
+americano regular,Americano,3.00,Coffee,Smooth espresso with hot water,90,true
+americano large,Large Americano,3.75,Coffee,Extra large americano for maximum caffeine,75,true
+latte regular,Latte,4.25,Coffee,Creamy espresso with steamed milk and light foam,60,true
+latte large,Large Latte,5.00,Coffee,Generous portion of our signature latte,45,true
+cappuccino regular,Cappuccino,3.75,Coffee,Perfect balance of espresso steamed milk and thick foam,70,true
+cappuccino large,Large Cappuccino,4.50,Coffee,Extra large cappuccino with rich foam art,55,true
+macchiato regular,Macchiato,4.00,Coffee,Espresso marked with a dollop of foamed milk,40,true
+macchiato caramel,Caramel Macchiato,4.75,Coffee,Sweet caramel flavored macchiato with vanilla,35,true
+mocha regular,Mocha,4.50,Coffee,Rich chocolate and espresso blend with whipped cream,50,true
+mocha large,Large Mocha,5.25,Coffee,Decadent large mocha with extra chocolate,30,true
+frappuccino coffee,Coffee Frappuccino,5.50,Coffee,Blended iced coffee drink with whipped cream,25,true
+frappuccino mocha,Mocha Frappuccino,6.00,Coffee,Icy chocolate coffee blend perfect for hot days,20,true
+cold brew regular,Cold Brew,3.50,Coffee,Smooth cold steeped coffee served over ice,40,true
+cold brew large,Large Cold Brew,4.25,Coffee,Extra large cold brew for serious cold coffee fans,30,true
+iced latte,Iced Latte,4.50,Coffee,Refreshing iced version of our classic latte,35,true
+iced americano,Iced Americano,3.25,Coffee,Cool and crisp iced americano,45,true
+french roast,French Roast Coffee,2.75,Coffee,Dark roasted coffee with bold smoky flavor,60,true
+house blend,House Blend Coffee,2.25,Coffee,Our signature medium roast coffee blend,80,true
+decaf coffee,Decaf Coffee,2.25,Coffee,Full flavor without the caffeine,40,true
+espresso romano,Espresso Romano,3.00,Coffee,Traditional espresso served with lemon peel,25,true
+affogato,Affogato,5.75,Coffee,Espresso shot poured over vanilla ice cream,15,true
+turkish coffee,Turkish Coffee,4.25,Coffee,Traditional finely ground coffee with rich flavor,20,true
+cup ceramic small,Small Ceramic Cup,12.99,Coffee Cups,Elegant small ceramic cup perfect for espresso,50,true
+cup ceramic medium,Medium Ceramic Cup,15.99,Coffee Cups,Classic medium ceramic cup for regular coffee,45,true
+cup ceramic large,Large Ceramic Cup,18.99,Coffee Cups,Spacious large ceramic cup for big coffee lovers,40,true
+cup glass small,Small Glass Cup,14.99,Coffee Cups,Transparent small glass cup with handle,35,true
+cup glass medium,Medium Glass Cup,17.99,Coffee Cups,Medium glass cup perfect for lattes,30,true
+cup glass large,Large Glass Cup,20.99,Coffee Cups,Large glass cup for specialty drinks,25,true
+cup travel small,Small Travel Cup,19.99,Coffee Cups,Insulated small travel cup with lid,60,true
+cup travel medium,Medium Travel Cup,24.99,Coffee Cups,Medium travel cup perfect for commuting,55,true
+cup travel large,Large Travel Cup,29.99,Coffee Cups,Large insulated travel cup for long journeys,45,true
+cup mug classic,Classic Coffee Mug,16.99,Coffee Cups,Traditional coffee mug with comfortable handle,40,true
+cup mug oversized,Oversized Coffee Mug,22.99,Coffee Cups,Extra large mug for serious coffee drinkers,30,true
+cup espresso set,Espresso Cup Set,35.99,Coffee Cups,Set of 4 small espresso cups with saucers,20,true
+cup cappuccino set,Cappuccino Cup Set,45.99,Coffee Cups,Set of 4 cappuccino cups with matching saucers,15,true
+cup latte bowl,Latte Bowl Cup,19.99,Coffee Cups,Wide bowl style cup perfect for latte art,25,true
+cup double wall,Double Wall Glass Cup,21.99,Coffee Cups,Insulated double wall glass cup,35,true
+cup vintage style,Vintage Style Mug,18.99,Coffee Cups,Retro inspired mug with classic design,20,true
+cup handle free,Handle Free Cup,13.99,Coffee Cups,Modern minimalist cup without handle,30,true
+cup stackable set,Stackable Cup Set,39.99,Coffee Cups,Set of 6 space saving stackable cups,12,true
+cup thermal mug,Thermal Coffee Mug,26.99,Coffee Cups,High tech thermal mug keeps coffee hot for hours,18,true
+cup bamboo eco,Eco Bamboo Cup,17.99,Coffee Cups,Sustainable bamboo fiber cup with lid,40,true
