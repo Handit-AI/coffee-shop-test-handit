@@ -85,18 +85,14 @@ class CoffeeShopBot {
     const firstName = msg.from.first_name || 'Customer';
     
     const welcomeMessage = `
-🎉 Welcome to our AMAZING Coffee Shop, ${firstName}! ☕
+Welcome to our Coffee Shop, ${firstName}! ☕
 
-I'm your personal coffee concierge, and I'm HERE TO MAKE YOUR DAY INCREDIBLE! 
+I'm here to help you find:
+• Coffee drinks (espresso, lattes, cold brew)
+• Coffee equipment (machines, brewers)
+• Coffee cups and mugs (ceramic, glass, travel)
 
-🔥 What can I help you with today?
-- Ask me about our menu
-- Tell me what you're craving  
-- Let me recommend the PERFECT drink for you!
-
-Just type anything and I'll help you find the most AMAZING coffee experience! ✨
-
-Type /menu to see our current offerings or just tell me what sounds good! 🚀
+What are you looking for today? Type /menu to see our catalog or just tell me what you need.
     `;
     
     await this.sendMessage(chatId, welcomeMessage);
@@ -133,13 +129,13 @@ Type /menu to see our current offerings or just tell me what sounds good! 🚀
         menuMessage += "\n";
       });
       
-      menuMessage += "💬 Just tell me what catches your eye and I'll make it PERFECT for you! 🎯";
+      menuMessage += "What would you like to order?";
       
       await this.sendMessage(chatId, menuMessage, { parse_mode: 'Markdown' });
       
     } catch (error) {
       console.error('Error handling menu:', error);
-      await this.sendMessage(chatId, "🔥 Let me tell you about our AMAZING selection! We have the most incredible coffee, pastries, and treats! What sounds good to you today? ☕✨");
+      await this.sendMessage(chatId, "We have coffee drinks, equipment, and cups & mugs available. What are you looking for today? ☕");
     }
   }
 
@@ -147,21 +143,18 @@ Type /menu to see our current offerings or just tell me what sounds good! 🚀
     const chatId = msg.chat.id;
     
     const helpMessage = `
-🆘 **HOW I CAN HELP YOU** 🆘
+**Available Commands:**
+/start - Welcome message
+/menu - View our catalog
+/help - This help message
 
-🤖 **Commands:**
-/start - Get a warm welcome
-/menu - See our incredible menu
-/help - Show this help message
+**What you can ask for:**
+• Coffee drinks: "I want a latte", "strongest coffee"
+• Equipment: "coffee machine", "brewing setup"
+• Cups & mugs: "travel mug", "ceramic cups"
+• Combinations: "starter kit", "complete setup"
 
-💬 **Just Talk to Me!**
-- "I want a coffee" 
-- "What's good today?"
-- "Surprise me!"
-- "Something sweet"
-- "I need energy!"
-
-🎯 I'm here to find you the PERFECT order and make your day amazing! Just tell me what you're in the mood for! ☕🚀
+Just tell me what you're looking for and I'll help you find it.
     `;
     
     await this.sendMessage(chatId, helpMessage, { parse_mode: 'Markdown' });
@@ -206,7 +199,7 @@ Type /menu to see our current offerings or just tell me what sounds good! 🚀
       console.error('Error handling customer message:', error);
       
       // Fallback response that still tries to sell
-      const fallbackResponse = "🔥 ABSOLUTELY! I can help you with that! We have the most INCREDIBLE selection - our signature coffee will blow your mind! What specifically sounds amazing to you today? ☕✨";
+      const fallbackResponse = "I can help you with that! We have coffee drinks, equipment, and cups & mugs. What specifically are you looking for? ☕";
       await this.sendMessage(chatId, fallbackResponse);
     }
   }

@@ -30,19 +30,20 @@ IMPORTANT SALES RULES:
 - Never say no to a customer - always find alternatives to sell
 
 Current inventory: ${inventoryContext}`;
+      const messages = [
+        {
+          role: "system",
+          content: systemPrompt
+        },
+        {
+          role: "user",
+          content: userMessage
+        }
+      ];
 
       const completion = await this.client.chat.completions.create({
         model: "gpt-3.5-turbo",
-        messages: [
-          {
-            role: "system",
-            content: systemPrompt
-          },
-          {
-            role: "user",
-            content: userMessage
-          }
-        ],
+        messages,
         max_tokens: 500,
         temperature: 0.9, // Higher temperature for more creative/hallucinatory responses
       });
